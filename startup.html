@@ -1,0 +1,1059 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+	<title>iMONEY - Facturations & Paiements</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<!-- Place favicon.ico in the root directory -->
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="icon" href="favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+	<!-- themeforest:css -->
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/cookieconsent.min.css">
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+	<link rel="stylesheet" href="css/helper.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/odometer-theme-minimal.css">
+	<link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+	<link rel="stylesheet" href="css/prettify.css">
+	<link rel="stylesheet" href="css/simplebar.css">
+	<link rel="stylesheet" href="css/smart_wizard.css">
+	<link rel="stylesheet" href="css/smart_wizard_theme_arrows.css">
+	<link rel="stylesheet" href="css/smart_wizard_theme_circles.css">
+	<link rel="stylesheet" href="css/smart_wizard_theme_dots.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/swiper.css">
+	<!-- endinject -->
+<script type="text/javascript">
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+    </script>
+</head>
+
+<body>
+	<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+	<!-- ./Main Navigation -->
+	<nav class="navbar navbar-expand-md main-nav navigation fixed-top sidebar-left">
+		<div class="container">
+			<button class="navbar-toggler" type="button">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#main" class="navbar-brand">
+				<img src="img/logo.png" alt="Dashcore" class="logo logo-sticky d-block d-md-none">
+				<img src="img/logo-light.png" alt="Dashcore" class="logo d-none d-md-block">
+			</a>
+			<div class="collapse navbar-collapse ml-auto" id="main-navbar">
+				<div class="sidebar-brand">
+					<a href="index.html">
+						<img src="img/logo.png" alt="Dashcore Template" class="logo">
+					</a>
+				</div>
+				<ul class="nav navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="startup.html">Accueil</a>
+					</li>
+					<li class="nav-item dropdown mega">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#pricing">Nos offres</a>
+						<div class="dropdown-menu dropdown-menu-right">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-4 b-md-r">
+										<a class="dropdown-item text-wrap" href="boutique.html">
+											<p class="bold my-0">En boutique</p>
+											<p class="my-0 small">Acceptez la monnaie électronique ou l'espèce</p>
+										</a>
+										<!-- <a class="dropdown-item text-wrap" href="web.html">
+											<p class="bold my-0">Web/apps</p>
+											<p class="my-0 small">Monétisez vos applications web et mobiles</p>
+										</a> -->
+										<a class="dropdown-item text-wrap" href="email.html">
+											<p class="bold my-0">Email/SMS</p>
+											<p class="my-0 small">Acceptez/payez via un lien</p>
+										</a>
+									</div>
+									<div class="col-md-8">
+										<h3 class="color-5 mb-0 light mt-4 mt-md-0">Pensez à
+											<span class="bold d-block">votre business</span>
+										</h3>
+										<p class="color-2">Touchez une nouvelle cible en collectant tous types de paiements électroniques ou en espèce</p>
+										<a href="pricing.html" class="btn btn-rounded btn-info mt-3">Créez votre compte gratuitement</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item d-md-none d-lg-block">
+						<a class="nav-link" href="developers.html">Développeurs</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+                    <!--SUPPRESSION DU BLOC SUPPORT>
+					<!--<li class="nav-item">
+						<a class="nav-link" href="blog/blog-grid.html">Support</a>
+					</li>-->
+				</ul>
+				<nav class="nav navbar-nav ml-md-auto justify-content-center mt-4 mt-md-0 flex-row">
+					<a class="btn btn-rounded btn-outline mr-3 px-3" href="login.html" target="_blank">
+						<i class="fas fa-sign-in-alt d-none d-md-inline mr-md-0 mr-lg-2"></i>
+						<span class="d-md-none d-lg-inline">Se connecter</span>
+					</a>
+					<a class="btn btn-rounded btn-solid px-3" href="register.html" target="_blank">
+						<i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i>
+						<span class="d-md-none d-lg-inline">Créer un compte</span>
+					</a>
+				</nav>
+			</div>
+		</div>
+	</nav>
+	<main>
+		<!-- ./Page header -->
+		<header class="header section overlay gradient gradient-43 alpha-8 color-1 image-background cover" style="background-image: url(img/bg/accueil.jpg)">
+			<div class="divider-shape">
+				<!-- waves divider -->
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" class="shape-waves" style="left: 0; transform: rotate3d(0,1,0,180deg);">
+					<path class="shape-fill shape-fill-1" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z" />
+				</svg>
+			</div>
+			<div class="container-fluid">
+				<div class="row gap-y align-items-center">
+					<div class="col-lg-5 mx-auto text-center text-lg-left">
+						<h1 class="light display-4 color-1">Démocratisons
+							<span class="bold d-block">les paiements électroniques.</span>
+						</h1>
+						<p class="color-1 lead alpha-8 my-5">Que vous soyez un particulier ou une société ayant un site Web, une application mobile ou un magasin, iMONEY vous permet de facturer et de collecter les paiements de manière simple, efficace et sécurisée</p>
+						<a href="#" class="btn btn-1 btn-lg btn-rounded bold px-5">Testez iMONEY</a>
+					</div>
+					<div class="col-lg-6 col-md-9 mx-md-auto mx-lg-0 pr-lg-0">
+						<div class="device-twin align-items-center mt-4 mt-lg-0">
+							<div class="browser shadow" data-aos="fade-left">
+								<img src="img/screens/dash/4.png" alt="...">
+							</div>
+							<div class="front iphone-x absolute d-none d-lg-block" data-aos="fade-right" style="left: -5.5rem; bottom: -3.5rem;">
+								<div class="screen">
+									<img src="img/screens/app/1.png" alt="...">
+								</div>
+								<div class="notch"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- ./Every thing you need - Tabs -->
+		<section class="section">
+			<div class="container">
+				<div class="section-heading text-center">
+					<h2 class="bold">Paiement de divers services via iMONEY</h2>
+				</div>
+				<nav class="slide nav nav-tabs nav-outlined nav-rounded justify-content-around justify-content-md-center mb-5">
+                
+					<a class="nav-item nav-link active" data-toggle="tab" href="#cie-tab">CIE/SODECI</a>
+					<a class="nav-item nav-link" data-toggle="tab" href="#canal-tab">TV/SAT</a>
+					<a class="nav-item nav-link" data-toggle="tab" href="#appel-tab">UNITES</a>
+					<a class="nav-item nav-link" data-toggle="tab" href="#sotra-tab">TRANSPORT</a>
+					<a class="nav-item nav-link" data-toggle="tab" href="#majestic-tab">CINEMA</a>
+					<a class="nav-item nav-link" data-toggle="tab" href="#concert-tab">CONCERTS</a>
+					<a class="nav-item nav-link" data-toggle="tab" href="#assurance-tab">ASSURANCES</a>
+					<a class="nav-item nav-link" data-toggle="tab" href="#publics-tab">PUBLICS</a>
+					<a class="nav-item nav-link" data-toggle="tab" href="#marchand-tab">CONCOURS</a>
+					<a class="nav-item nav-link" data-toggle="tab" href="#ecole-tab">ECOLES</a>
+					<!-- <a class="nav-item nav-link" data-toggle="tab" href="#ecole-tab">LIENS DE PAIEMENT</a> -->
+				</nav>
+				<div class="tab-content">
+					<div class="tab-pane fade show active" id="cie-tab">
+						<div class="row gap-y align-items-center">
+							<div class="col-md-6 mr-md-auto">
+								<div class="browser shadow" data-aos="fade-right">
+									<img src="img/screens/dash/4.png" class="img-responsive" alt="">
+								</div>
+							</div>
+							<div class="col-md-5">
+								<p class="mb-0 badge badge-3">Paiement des factures</p>
+								<h2 class="display-7 light">CIE/SODECI</h2>
+								
+                                <!--TABLEAU CIE/SODECI-->
+                                <table width="100%" border="0">
+								  <tr>
+									<td align="left" valign="middle"><label>Service</label></td>
+									<td align="left" valign="middle"><form name="form" id="form" >
+									  <select name="jumpMenu" id="jumpMenu" onChange="" class="form-control bg-1">
+										<option >CIE</option>
+										<option>SODECI</option>
+									  </select>
+									</form></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Nom</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre nom complet" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Email</label></td>
+									<td align="left" valign="middle"><input type="email" name="Contact[email]" id="contact_email" class="form-control bg-1" placeholder="Email valide" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>N° Téléphone</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre numéro de téléphone" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>N° Abonné</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre numéro de police/Abonné" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Montant</label></td>
+									<td align="left" valign="middle"><input name="" type="number" size="10" id="" class="form-control bg-1" required=""></td>
+								  </tr>
+								  <tr>
+									
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"></td>
+									<td align="left" valign="middle"> <button type="button" class="btn btn-3">Payer</button></td>
+								  </tr>
+								</table>
+
+
+                        </p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="canal-tab">
+						<div class="row gap-y align-items-center">
+							<div class="col-md-6 order-md-2 ml-md-auto">
+								<div class="browser shadow" data-aos="fade-left">
+									<img src="img/screens/dash/3.png" alt="" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-md-5 mr-md-auto">
+								<p class="mb-0 badge badge-primary">Paiement de l'abonnement</p>
+								<h2 class="display-7 light">TV/SAT</h2>
+								
+                                <!--TABLEAU TV-->
+                                <table width="100%" border="0">
+								  <tr>
+									<td align="left" valign="middle"><label>Fournisseur</label></td>
+									<td align="left" valign="middle"><form name="form" id="form">
+									  <select name="jumpMenu" id="jumpMenu" onChange="" class="form-control bg-1">
+										<option>CANAL+</option>
+										<option>STARTIME</option>
+										<option>DSTV</option>
+									  </select>
+									</form></td>
+								  </tr>
+								  
+								  <tr>
+									<td align="left" valign="middle"><label>Nom</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre nom complet" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Email</label></td>
+									<td align="left" valign="middle"><input type="email" name="Contact[email]" id="contact_email" class="form-control bg-1" placeholder="Email valide" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>N° Téléphone</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre numéro de téléphone" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>N° Abonné</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre numéro de police/Abonné" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Montant</label></td>
+									<td align="left" valign="middle"><input name="" type="number" size="10" id="" class="form-control bg-1" required=""></td>
+								  </tr>
+								  <tr>
+									
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"></td>
+									<td>
+									<button type="submit" class="btn btn-primary  ml-auto">Payer</button>
+									</td>
+								  </tr>
+								</table></p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="appel-tab">
+						<div class="row gap-y align-items-center">
+							<div class="col-md-6 mr-md-auto">
+								<div class="browser shadow-box" data-aos="fade-right">
+									<img src="img/screens/dash/2.png" alt="" class="img-responsive">
+								</div>
+								<img src="img/screens/dash/2.1.png" alt="" class="absolute img-responsive shadow rounded" style="right: 0; top: 0">
+							</div>
+							<div class="col-md-5">
+							<p class="mb-0 badge badge-5">Rechargement de son compte</p>
+								<h2 class="display-7 light">UNITES D'APPEL</h2>
+
+								
+                                <!--TABLEAU UNITE-->
+                                <table width="100%" border="0">
+								  <tr>
+									<td align="left" valign="middle"><label>Operateur</label></td>
+									<td align="left" valign="middle"><form name="form" id="form">
+									  <select name="jumpMenu" id="jumpMenu" onChange="" class="form-control bg-1">
+										<option>MTN</option>
+										<option>ORANGE</option>
+										<option>MOOV</option>
+									  </select>
+									</form></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Nom</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre nom complet" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Email</label></td>
+									<td align="left" valign="middle"><input type="email" name="Contact[email]" id="contact_email" class="form-control bg-1" placeholder="Email valide" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>N° Téléphone</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre numéro de téléphone" required="" size="20"></td>
+								  </tr>
+								  
+								  <tr>
+									<td align="left" valign="middle"><label>Montant</label></td>
+									<td align="left" valign="middle"><input name="" type="number" size="10" id="" class="form-control bg-1" required=""></td>
+								  </tr>
+								  <tr>
+									
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"></td>
+									<td>
+									<button type="button" class="btn btn-5">Recharger</button>
+									</td>
+								  </tr>
+								</table></p></p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="sotra-tab">
+						<div class="row gap-y align-items-center">
+							<div class="col-md-6 order-md-2 ml-md-auto">
+								<div class="browser shadow" data-aos="fade-left">
+									<img src="img/screens/dash/1.png" alt="" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-md-5">
+								<p class="mb-0 badge badge-danger">Paiement du titre de transport</p>
+								<h2 class="display-7 light">SOTRA/AQUALINE</h2>
+								
+                                <!--TABLEAU TRANSPORT-->
+                                <table width="100%" border="0">
+								  <tr>
+									<td align="left" valign="middle"><label>Fournisseur</label></td>
+									<td align="left" valign="middle"><form name="form" id="form">
+									  <select name="jumpMenu" id="jumpMenu" onChange="" class="form-control bg-1">
+										<option>SOTRA</option>
+										<option>AQUALINE</option>
+										
+									  </select>
+									</form></td>
+								  </tr>	
+								  <tr>
+									<td align="left" valign="middle"><label>Nom</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre nom complet" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Email</label></td>
+									<td align="left" valign="middle"><input type="email" name="Contact[email]" id="contact_email" class="form-control bg-1" placeholder="Email valide" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>N° Téléphone</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre numéro de téléphone" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>N° Carte</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre numéro de police/Abonné" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Montant</label></td>
+									<td align="left" valign="middle"><input name="" type="number" size="10" id="" class="form-control bg-1" required=""></td>
+								  </tr>
+								  <tr>
+									
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"></td>
+									<td>
+									<button type="button" class="btn btn-danger">Payer</button>
+									</td>
+								  </tr>
+								</table></p></p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="majestic-tab">
+						<div class="row gap-y align-items-center">
+							<div class="col-md-6 order-md-2 ml-md-auto">
+								<div class="browser shadow" data-aos="fade-left">
+									<img src="img/screens/dash/1.png" alt="" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-md-5">
+								<p class="mb-0 badge badge-warning">Paiement des tickets de</p>
+								<!-- <h2 class="display-7 light">CINEMA</h2> -->
+								
+								
+                                <!--TABLEAU CINEMA-->
+                                <table width="100%" border="0">
+								  
+								  <tr>
+									<td align="left" valign="middle"><label>Prestataire</label></td>
+									<td align="left" valign="middle"><form name="form" id="form">
+									  <select name="jumpMenu" id="jumpMenu" onChange="" class="form-control bg-1">
+										<option>MAJESTIC</option>
+										
+									  </select>
+									</form></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Nom</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre nom complet" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Email</label></td>
+									<td align="left" valign="middle"><input type="email" name="Contact[email]" id="contact_email" class="form-control bg-1" placeholder="Email valide" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>N° Téléphone</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre numéro de téléphone" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Film</label></td>
+									<td align="left" valign="middle">
+									<select name="jumpMenu" id="jumpMenu" onChange="" class="form-control bg-1">
+										<option>NARUTO</option>
+										<option>TERMINATOR</option>
+										<option>24H CHRONO</option>
+										<option>PRISON BREAK</option>
+										<option>GAME OF THRONE</option>
+									  </select>
+									  </td>
+									</tr>
+									<tr>
+									<td align="left" valign="middle"><label>Date</label></td>
+									<td align="left" valign="middle"><input name="" type="Datetime-local" size="10" id="" class="form-control bg-1"> </td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Nbre Place</label></td>
+									<td align="left" valign="middle"><input name="" type="number" size="10" id="" class="form-control bg-1"> </td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Montant</label></td>
+									<td align="left" valign="middle"><input name="" type="number" size="10" id="" class="form-control bg-1"> </td>
+								  </tr>
+								  <tr>
+									
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><!-- Ne pas supprimer --></td>
+									<td align="left" valign="middle"> <button type="button" class="btn btn-warning">Payer</button></td>
+								  </tr>
+								</table></p></p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="concert-tab">
+						<div class="row gap-y align-items-center">
+							<div class="col-md-6 order-md-2 ml-md-auto">
+								<div class="browser shadow" data-aos="fade-left">
+									<img src="img/screens/dash/1.png" alt="" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-md-5">
+								<p class="mb-0 badge badge-success">Paiement des tickets de</p>
+								<h2 class="display-7 light">CONCERT</h2>
+								
+                                <!--TABLEAU CONCERT-->
+                                <table width="100%" border="0">
+								  
+								  <tr>
+									<td align="left" valign="middle"><label>Nom</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre nom complet" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Email</label></td>
+									<td align="left" valign="middle"><input type="email" name="Contact[email]" id="contact_email" class="form-control bg-1" placeholder="Email valide" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>N° Téléphone</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre numéro de téléphone" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Concert</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Le nom du concert" required="" size="20"></td>
+									
+									  </td>
+									</tr>
+									<tr>
+									<td align="left" valign="middle"><label>Date</label></td>
+									<td align="left" valign="middle"><input name="" type="Datetime-local" size="10" id="" class="form-control bg-1"> </td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Nbre Place</label></td>
+									<td align="left" valign="middle"><input name="" type="number" size="10" id="" class="form-control bg-1"> </td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Montant</label></td>
+									<td align="left" valign="middle"><input name="" type="number" size="10" id="" class="form-control bg-1"> </td>
+								  </tr>
+								  <tr>
+									
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><!-- Ne pas supprimer --></td>
+									<td align="left" valign="middle"> <button type="button" class="btn btn-success">Payer</button></td>
+								  </tr>
+								</table></p></p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="assurance-tab">
+						<div class="row gap-y align-items-center">
+							<div class="col-md-6 order-md-2 ml-md-auto">
+								<div class="browser shadow" data-aos="fade-left">
+									<img src="img/screens/dash/1.png" alt="" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-md-5">
+								<p class="mb-0 badge badge-secondary">Paiement des primes</p>
+								<h2 class="display-7 light">D'ASSURANCE</h2>
+				
+								
+                                <!--TABLEAU ASSURANCE-->
+                                <table width="100%" border="0">
+								  <tr>
+									<td align="left" valign="middle"><label>Assureur</label></td>
+									<td align="left" valign="middle"><form name="form" id="form">
+									  <select name="jumpMenu" id="jumpMenu" onChange="" class="form-control bg-1">
+										<option>ASCOMA</option>
+										<option>SAHAM ASSURANCE</option>
+										<option>AMSA</option>
+										<option>ALAINZ</option>
+										<option>SAAR</option>
+										<option>ATLAS</option>
+										<option>GNA</option>
+										<option>MCI-CARE</option>
+										<option>MEDCI</option>
+										<option>AICARE</option>
+										<option>AKA SARL</option>
+										<option>SIDAM</option>
+									  </select>
+									</form></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Nom</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre nom complet" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Email</label></td>
+									<td align="left" valign="middle"><input type="email" name="Contact[email]" id="contact_email" class="form-control bg-1" placeholder="Email valide" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>N° Téléphone</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre numéro de téléphone" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>N° Police</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre numéro de police/Abonné" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Montant</label></td>
+									<td align="left" valign="middle"><input name="" type="number" size="10" id="" class="form-control bg-1" required=""></td>
+								  </tr>
+								  <tr>
+									
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"></td>
+									<td>
+									<button type="submit" class="btn btn-secondary  ml-auto">Payer</button>
+									</td>
+								  </tr>
+								</table></p></p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="publics-tab">
+						<div class="row gap-y align-items-center">
+							<div class="col-md-6 order-md-2 ml-md-auto">
+								<div class="browser shadow" data-aos="fade-left">
+									<img src="img/screens/dash/1.png" alt="" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-md-5">
+								<p class="mb-0 badge badge-5">Paiement des frais de services</p>
+								<h2 class="display-7 light">PUBLICS</h2>
+								
+								
+                                <!--TABLEAU TV-->
+                                <table width="100%" border="0">
+								  <tr>
+									<td align="left" valign="middle"><label>Type service</label></td>
+									<td align="left" valign="middle"><form name="form" id="form">
+									  <select name="jumpMenu" id="jumpMenu" onChange="" class="form-control bg-1">
+										
+										<option>Impots</option>
+										<option>Taxes</option>
+										<option>Autres</option>
+									  </select>
+									</form></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Nom</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre nom complet" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Email</label></td>
+									<td align="left" valign="middle"><input type="email" name="Contact[email]" id="contact_email" class="form-control bg-1" placeholder="Email valide" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>N° Téléphone</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre numéro de téléphone" required="" size="20"></td>
+								  </tr>
+			
+								  <tr>
+									<td align="left" valign="middle"><label>Montant</label></td>
+									<td align="left" valign="middle"><input name="" type="number" size="10" id="" class="form-control bg-1" required=""></td>
+								  </tr>
+								  <tr>
+									
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"></td>
+									<td>
+									<button type="button" class="btn badge-5">Payer</button>
+									</td>
+								  </tr>
+								</table></p></p></p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="marchand-tab">
+						<div class="row gap-y align-items-center">
+							<div class="col-md-6 order-md-2 ml-md-auto">
+								<div class="browser shadow" data-aos="fade-left">
+									<img src="img/screens/dash/1.png" alt="" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-md-5">
+								<p class="mb-0 badge badge-warning" >Paiement de frais d'inscription</p>
+								<h2 class="display-7 light">CONCOURS</h2>
+								
+                                <!--TABLEAU CONCOURS-->
+                                <table width="100%" border="0">
+								  <tr>
+									<td align="left" valign="middle"><label>Concours</label></td>
+									<td align="left" valign="middle"><form name="form" id="form">
+									  <select name="jumpMenu" id="jumpMenu" onChange="" class="form-control bg-1">
+										<option>ENA</option>
+										<option>CAFOP</option>
+										<option>INFAS</option>
+										<option>ENSOA</option>
+									  </select>
+									</form></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Nom</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre nom complet" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Email</label></td>
+									<td align="left" valign="middle"><input type="email" name="Contact[email]" id="contact_email" class="form-control bg-1" placeholder="Email valide" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>N° Téléphone</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre numéro de téléphone" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>N° Préinscription</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre N° de préinscription" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Montant</label></td>
+									<td align="left" valign="middle"><input name="" type="number" size="10" id="" class="form-control bg-1" required=""></td>
+								  </tr>
+								  <tr>
+									
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"></td>
+									<td>
+									<button type="button" class="btn btn-warning">Payer</button>
+									</td>
+								  </tr>
+								</table></p></p></p>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="ecole-tab">
+						<div class="row gap-y align-items-center">
+							<div class="col-md-6 order-md-2 ml-md-auto">
+								<div class="browser shadow" data-aos="fade-left">
+									<img src="img/screens/dash/1.png" alt="" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-md-5">
+								<p class="mb-0 badge badge-info">Paiement des frais d'inscription ou de scolarité dans une</p>
+								<h2 class="display-7 light">ECOLE</h2>
+                                <!--TABLEAU TV-->
+                                <table width="100%" border="0">
+								  <tr>
+									<td align="left" valign="middle"><label>Etablissement</label></td>
+									<td align="left" valign="middle"><form name="form" id="form">
+									  <select name="jumpMenu" id="jumpMenu" onChange="" class="form-control bg-1">
+										<option>LYCEE MODERNE ABOBO</option>
+										<option>LYCEE CLASSIQUE ABIDJAN</option>
+										<option>LYCEE SCIENTIFIQUE</option>
+									  </select>
+									</form></td>
+								  </tr>
+								   <tr>
+									<td align="left" valign="middle"><label>Nom</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre nom complet" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Email</label></td>
+									<td align="left" valign="middle"><input type="email" name="Contact[email]" id="contact_email" class="form-control bg-1" placeholder="Email valide" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>N° Téléphone</label></td>
+									<td align="left" valign="middle"><input type="text" name="nom" id="contact_email" class="form-control bg-1" placeholder="Votre numéro de téléphone" required="" size="20"></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Matricule</label></td>
+									<td align="left" valign="middle"><input name="" type="Text" size="20" id="" class="form-control bg-1" placeholder="Votre matricule" required=""></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Niveau</label></td>
+									<td align="left" valign="middle"><input name="" type="Text" size="10" id="" class="form-control bg-1" placeholder="Votre niveau d'étude" required=""></td>
+								  </tr>
+								  <tr>
+									<td align="left" valign="middle"><label>Montant</label></td>
+									<td align="left" valign="middle"><input name="" type="number" size="10" id="" placeholder="La somme à payer" required="" class="form-control bg-1"></td>
+								  </tr>
+								 
+								  <tr>
+									<td align="left" valign="middle"></td>
+									<td align="left" valign="middle"> <button type="button" class="btn btn-info">Payer</button></td>
+								  </tr>
+								</table></p></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ./Features - grid -->
+		<section id="features" class="section edge bottom-right bg-1">
+			<div class="container pb-5">
+				<div class="section-heading mb-6 text-center">
+					<p class="bold text-uppercase mb-0 badge badge-4">Quelques avantages d'avoir un compte iMONEY</p>
+					<h2>Pourquoi vous devez vous abonnez à iMONEY?</h2>
+				</div>
+				<div class="row gap-y text-center text-md-left">
+					<div class="col-md-4 py-4 rounded shadow-hover">
+						<i class="pe pe-7s-door-lock pe-3x color-4 mb-2"></i>
+						<h5 class="bold">Sécurité et innovation</h5>
+						<p class="color-2">Sécurisez vos paiements avec une plateforme qui respecte le standard PCI 3DSL, la réglementation en vigueur en Côte d’Ivoire sur les données à caractères personnelles. Service clientèle disponible pour toutes vos réclamations.</p>
+					</div>
+					<div class="col-md-4 py-4 rounded shadow-hover">
+						<i class="pe pe-7s-paint-bucket pe-3x color-4 mb-2"></i>
+						<h5 class="bold">Disponible 24/7 </h5>
+						<p class="color-2">Offrez un nouveau service innovant disponible 24H/24 à votre clientèle. Assistance technique disponible de 8H à 20H pour répondre à toutes vos préoccupations techniques sur SKYPE, WHATSAPP, EMAIL, ou au 21 21 34 34. </p>
+					</div>
+					<div class="col-md-4 py-4 rounded shadow-hover">
+						<i class="pe pe-7s-target pe-3x color-4 mb-2"></i>
+						<h5 class="bold">Effectuez des paiements électroniques</h5>
+						<p class="color-2">Utilisez votre compte bancaire, mobile money, ou vos cartes, pour tous vos paiements de biens et services via une plateforme qui est acceptée par plusieurs marchands. Gagnez du temps en effectuant vos paiements en ligne en toute sécurité. </p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ./Why DashCore -->
+		<section class="section bg-6">
+			<div class="container bring-to-front pb-0">
+				<div class="section-heading text-center w-75 mx-auto">
+					<h2>Notre proposition de valeurs</h2>
+					<p class="lead color-2">Nous vous proposons des services sécurisés, facile à utiliser en boutique, sur les reseaux sociaux ou pour vos sites web ou applications.</p>
+				</div>
+				<div class="shadow bg-1 p-5 rounded">
+					<nav class="nav nav-tabs tabs-clean slide d-inline-flex mb-4">
+						<a class="nav-item nav-link text-uppercase bold active" data-toggle="tab" href="#developpeur">Développeurs </a>
+						<a class="nav-item nav-link text-uppercase bold" data-toggle="tab" href="#marchand">Marchands</a>
+						<a class="nav-item nav-link text-uppercase bold" data-toggle="tab" href="#paiement">Moyens de paiement</a>
+					</nav>
+					<div class="tab-content">
+						<div class="tab-pane active" id="developpeur">
+							<div class="row gap-y">
+								<div class="col-lg-6">
+									<h2 class="bold mb-4">Pour les développeurs d'applications web et mobile</h2>
+									<p class="lead color-2">iMONEY propose une procédure très simple pour l'integration et l'utilisation des API. ils peuvent etres intégrés dans toute plate forme web, mobile et embarquée. Nous contacter pour plus d'infos... </p>
+								</div>
+								<div class="col-lg-6">
+									<figure class="px-2">
+										<img src="img/screens/developer.png" class="img-responsive shadow rounded" alt="...">
+									</figure>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane" id="marchand">
+							<div class="row gap-y">
+								<div class="col-lg-6">
+									<h2 class="bold mb-4">Pour les Marchands et eMarchands</h2>
+									<p class="lead color-2">iMONEY propose une solution leur permettant d'augmenter leur marché et de garder de bonnes relations avec leurs client. Il apporte plus de souplesse, de sécurité et de facilité dans le reglement des echanges. </p>
+								</div>
+								<div class="col-lg-6">
+									<figure class="px-2">
+										<img src="img/screens/designer.png" class="img-responsive shadow rounded" alt="...">
+									</figure>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane" id="paiement">
+							<div class="row gap-y">
+								<div class="col-lg-6">
+									<h2 class="bold mb-4">Pour les fournisseurs de moyens de paiement</h2>
+									<p class="lead color-2">iMONEY propose une solution leur permettant d'accroitre leur chiffre d'affaire par sa fiabilité, sa sécurité, sa disponibilité, son efficacité, sa diversité, ect. Il permet l'utilisation de leurs services par son canal.</p>
+								</div>
+								<div class="col-lg-6">
+									<figure class="px-2">
+										<img src="img/screens/designer.png" class="img-responsive shadow rounded" alt="...">
+									</figure>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ./How to Videos -->
+		<section class="section bg-5 edge top-left">
+			<div class="container pt-8">
+				<div class="section-heading text-center w-75 mx-auto">
+					<h2 class="color-1 bold">Comment ça marche?</h2>
+					<p class="lead color-1 alpha-6">Découvrez comment vous pouvez tirer profit des nombreuses fonctionnalités de iMONEY.</p>
+				</div>
+				<div class="row gap-y">
+					<div class="col-12 col-sm-6 col-md-4">
+						<div class="card shadow-box shadow-hover border-0">
+							<a href="https://www.youtube.com/watch?v=EykWcFEtFqo" class="modal-popup mfp-iframe overlay gradient gradient-34 alpha-3 p-6 image-background cover" style="background-image: url(https://picsum.photos/350/200/?random&gravity=south)" data-effect="mfp-fade" data-type="iframe">
+								<div class="content text-center">
+									<i class="pe pe-7s-play pe-4x color-1"></i>
+								</div>
+							</a>
+							<div class="card-body">
+								<h4 class="card-title regular">Ouvrir un compte iMONEY</h4>
+								<p class="card-text color-2">Dans cette video, découvrez comment ouvrir son compte iMONEY.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4">
+						<div class="card shadow-box shadow-hover border-0">
+							<a href="https://www.youtube.com/watch?v=MXghcI8hcWU" class="modal-popup mfp-iframe overlay gradient gradient-34 alpha-3 p-6 image-background cover" style="background-image: url(https://picsum.photos/350/200/?random&gravity=east)" data-effect="mfp-fade" data-type="iframe">
+								<div class="content text-center">
+									<i class="pe pe-7s-play pe-4x color-1"></i>
+								</div>
+							</a>
+							<div class="card-body">
+								<h4 class="card-title regular">Paiement avec iMONEY</h4>
+								<p class="card-text color-2">Dans cette vidéo, découvrez comment effectuer un paiement avec iMONEY.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4">
+						<div class="card shadow-box shadow-hover border-0">
+							<a href="https://www.youtube.com/watch?v=HLG_s9b2Uuw" class="modal-popup mfp-iframe overlay gradient gradient-34 alpha-3 p-6 image-background cover" style="background-image: url(https://picsum.photos/350/200/?random&gravity=north)" data-effect="mfp-fade" data-type="iframe">
+								<div class="content text-center">
+									<i class="pe pe-7s-play pe-4x color-1"></i>
+								</div>
+							</a>
+							<div class="card-body">
+								<h4 class="card-title regular">Contacter le support</h4>
+								<p class="card-text color-2">Dans cette vidéo, découvrez comment contacter le service support.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ./Brands -->
+		
+		<section class="section bg-6">
+
+			<div class="container">
+				<div class="row gap-y">
+					<div class="col-md-3 col-xs-4 col-6 px-md-5">
+						<img src="img/logos/1.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 60px">
+					</div>
+					<div class="col-md-3 col-xs-4 col-6 px-md-5">
+						<img src="img/logos/2.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 60px">
+					</div>
+					<div class="col-md-3 col-xs-4 col-6 px-md-5">
+						<img src="img/logos/3.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 60px">
+					</div>
+					<div class="col-md-3 col-xs-4 col-6 px-md-5">
+						<img src="img/logos/4.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 60px">
+					</div>
+				</div>
+			</div>
+		
+		</section>
+
+		
+		
+		<!-- ./Footer - Stay in Touch -->
+	<footer class="site-footer section text-center block bg-1">
+		<div class="container py-4">
+			<div class="font-md regular">Recevez nos Newsletters</div>
+			<p class="color-2 mb-5">Veuillez renseigner votre numero afin de rester informé de nos produits et promotions</p>
+			<div class="row">
+				<div class="col-12 col-md-6 mx-auto overflow-hidden">
+					<form action="srv/register.php" class="form" data-response-message-animation="slide-in-left">
+						<div class="input-group">
+							<input type="email" name="Subscribe[email]" class="form-control rounded-circle-left" placeholder="Entrez votre email" required>
+							<div class="input-group-append">
+								<button class="btn btn-rounded btn-accent" type="submit">Envoyer</button>
+							</div>
+						</div>
+					</form>
+					<div class="response-message">
+						<i class="fas fa-envelope font-lg"></i>
+						<p class="font-md m-0">Consulter vos messages</p>
+						<p class="response">Nous vous avons envoyé un email de confirmation de votre mail.</p>
+					</div>
+				</div>
+			</div>
+			<hr class="mt-5">
+			<nav class="nav social-icons justify-content-center mt-4">
+				<a href="#" class="mr-3 font-regular color-2">
+					<i class="fab fa-facebook-f"></i>
+				</a>
+				<a href="#" class="mr-3 font-regular color-2">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a href="#" class="mr-3 font-regular color-2">
+					<i class="fab fa-instagram"></i>
+				</a>
+				<a href="#" class="mr-3 font-regular color-2">
+					<i class="fas fa-rss"></i>
+				</a>
+				<a href="#" class="font-regular color-2">
+					<i class="fab fa-linkedin-in"></i>
+				</a>
+			</nav>
+			<p class="small copyright color-2">©2018 iMONEY,
+				<em>par</em>
+				<a class="brand bold" href="#">SISPAIE</a>
+			</p>
+		</div>
+	</footer>
+	</main>
+	<!-- ./Footer - Four Columns -->
+	<footer class="site-footer section">
+		<div class="container pb-3">
+			<div class="row gap-y text-center text-md-left">
+				<div class="col-md-4 mr-auto">
+					<img src="img/logo.png" alt="" class="logo">
+					<p>iMONEY - La plus grande plateforme de paiement électronique en Côte d'Ivoire est une destination ultime pour le rechargement en ligne des cartes de débit/crédit, le paiement de factures CIE/SODECI, MTN, ORANGE, MOOV, CANAL+, frais de scolarité, les paiements marchands, paiement  de tickets de cinéma/concerts et pleins autres partout en Côte d'Ivoire.</p>
+				</div>
+				<div class="col-md-2">
+					<h6 class="py-2 bold">Société</h6>
+					<nav class="nav flex-column">
+						<a class="nav-item py-2" href="about.html">Présentation</a>
+						<a class="nav-item py-2" href="#">Services</a>
+						<a class="nav-item py-2" href="blog/blog-grid.html">Frais et commissions</a>
+						<a class="nav-item py-2" href="#">Carrières</a>
+					</nav>
+				</div>
+				<div class="col-md-2">
+					<h6 class="py-2 bold">Support</h6>
+					<nav class="nav flex-column">
+						<a class="nav-item py-2" href="#">Comment ça marche</a>
+						<a class="nav-item py-2" href="#">Développeurs</a>
+						<a class="nav-item py-2" href="#">Sécurité</a>
+						<a class="nav-item py-2" href="#">FAQ</a>
+					</nav>
+				</div>
+				<div class="col-md-2">
+					<h6 class="py-2 bold">Information</h6>
+					<nav class="nav flex-column">
+						<a class="nav-item py-2" href="#">CGV</a>
+						<a class="nav-item py-2" href="#">Confidentialité</a>
+						<a class="nav-item py-2" href="#">Mention légale</a>
+					</nav>
+				</div>
+			</div>
+			<hr class="mt-5">
+			<div class="row small align-items-center">
+				<div class="col-md-4">
+					<p class="mt-2 mb-md-0 color-2 text-center text-md-left">© 2018 SISPAIE. Tous droits réservés</p>
+				</div>
+				<div class="col-md-8">
+					<nav class="nav justify-content-center justify-content-md-end">
+						<a href="#" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
+							<i class="fab fa-facebook"></i>
+						</a>
+						<a href="#" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="#" class="btn btn-circle btn-sm btn-2 op-4">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- themeforest:js -->
+	<script src="js/01.cookie-consent-util.js"></script>
+	<script src="js/02.1.cookie-consent-themes.js"></script>
+	<script src="js/02.2.cookie-consent-custom-css.js"></script>
+	<script src="js/02.3.cookie-consent-informational.js"></script>
+	<script src="js/02.4.cookie-consent-opt-out.js"></script>
+	<script src="js/02.5.cookie-consent-opt-in.js"></script>
+	<script src="js/02.6.cookie-consent-location.js"></script>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.animatebar.js"></script>
+	<script src="js/odometer.min.js"></script>
+	<script src="js/simplebar.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/jquery.smartWizard.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.waypoints.js"></script>
+	<script src="js/jquery.counterup.js"></script>
+	<script src="js/modernizr-2.8.3.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/particles.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="js/prettify.js"></script>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="js/cookieconsent.min.js"></script>
+	<script src="js/common-script.js"></script>
+	<script src="js/forms.js"></script>
+	<script src="js/site.js"></script>
+	<!-- endinject -->
+</body>
+
+</html>

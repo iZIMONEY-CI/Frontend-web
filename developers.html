@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+	<title>iMONEY - Facturations & Paiements</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<!-- Place favicon.ico in the root directory -->
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="icon" href="favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+	<!-- themeforest:css -->
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/cookieconsent.min.css">
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+	<link rel="stylesheet" href="css/helper.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/odometer-theme-minimal.css">
+	<link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+	<link rel="stylesheet" href="css/prettify.css">
+	<link rel="stylesheet" href="css/simplebar.css">
+	<link rel="stylesheet" href="css/smart_wizard.css">
+	<link rel="stylesheet" href="css/smart_wizard_theme_arrows.css">
+	<link rel="stylesheet" href="css/smart_wizard_theme_circles.css">
+	<link rel="stylesheet" href="css/smart_wizard_theme_dots.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/swiper.css">
+	<!-- endinject -->
+</head>
+
+<body>
+	<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+	<!-- ./Main Navigation -->
+	<nav class="navbar navbar-expand-md main-nav navigation fixed-top sidebar-left">
+		<div class="container">
+			<button class="navbar-toggler" type="button">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#main" class="navbar-brand">
+				<img src="img/logo.png" alt="Dashcore" class="logo logo-sticky d-block d-md-none">
+				<img src="img/logo-light.png" alt="Dashcore" class="logo d-none d-md-block">
+			</a>
+			<div class="collapse navbar-collapse ml-auto" id="main-navbar">
+				<div class="sidebar-brand">
+					<a href="index.html">
+						<img src="img/logo.png" alt="Dashcore Template" class="logo">
+					</a>
+				</div>
+				<ul class="nav navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="startup.html">Accueil</a>
+					</li>
+					<li class="nav-item dropdown mega">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#pricing">Nos offres</a>
+						<div class="dropdown-menu dropdown-menu-right">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-4 b-md-r">
+										<a class="dropdown-item text-wrap" href="boutique.html">
+											<p class="bold my-0">En boutique</p>
+											<p class="my-0 small">Acceptez la monnaie électronique ou l'espèce</p>
+										</a>
+										<!-- <a class="dropdown-item text-wrap" href="web.html">
+											<p class="bold my-0">Web/apps</p>
+											<p class="my-0 small">Monétisez vos applications web et mobiles</p>
+										</a> -->
+										<a class="dropdown-item text-wrap" href="email.html">
+											<p class="bold my-0">Email/SMS</p>
+											<p class="my-0 small">Acceptez/payez via un lien</p>
+										</a>
+									</div>
+									<div class="col-md-8">
+										<h3 class="color-5 mb-0 light mt-4 mt-md-0">Pensez à
+											<span class="bold d-block">votre business</span>
+										</h3>
+										<p class="color-2">Touchez une nouvelle cible en collectant tous types de paiements électroniques ou en espèce</p>
+										<a href="pricing.html" class="btn btn-rounded btn-info mt-3">Créez votre compte gratuitement</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item d-md-none d-lg-block">
+						<a class="nav-link" href="developers.html">Développeurs</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+                    <!--SUPPRESSION DU BLOC SUPPORT>
+					<!--<li class="nav-item">
+						<a class="nav-link" href="blog/blog-grid.html">Support</a>
+					</li>-->
+				</ul>
+				<nav class="nav navbar-nav ml-md-auto justify-content-center mt-4 mt-md-0 flex-row">
+					<a class="btn btn-rounded btn-outline mr-3 px-3" href="register.html" target="_blank">
+						<i class="fas fa-sign-in-alt d-none d-md-inline mr-md-0 mr-lg-2"></i>
+						<span class="d-md-none d-lg-inline">Se connecter</span>
+					</a>
+					<a class="btn btn-rounded btn-solid px-3" href="register.html" target="_blank">
+						<i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i>
+						<span class="d-md-none d-lg-inline">Créer un compte</span>
+					</a>
+				</nav>
+			</div>
+		</div>
+	</nav>
+	<main>
+		<!-- ./Page header -->
+		<header class="header section parallax image-background overlay gradient gradient-53 alpha-8 color-1" style="background-image: url('img/bg/dev.jpg')">
+			<div class="container overflow-hidden">
+				<div class="row">
+					<div class="col-md-8">
+						<p class="lead bold">Chers développeurs,</p>
+						<h1 class="display-5 color-1 light">Monétisez vos applications au quotidien avec des outils de</h1>
+						<h1 class="color-1">
+							<span class="typed bold display-4 display-md-3"></span>
+						</h1>
+						<nav class="nav mt-5">
+							<a href="contact.html" class="nav-link btn btn btn-rounded btn-1 btn-lg px-5 bold">Plus de details</a>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- ./ New Integration API -->
+		<section class="section bg-5">
+			<div class="container text-center pt-4 pb-7">
+				<p class="color-1">DES SOLUTIONS POUR LES HÉROS DU DÉVÉLOPPEMENT! COMMENCER À INTÉGRER GRATUITEMENT iMONEY À VOS APPLICATIONS.
+					<!-- <a href="blog-post.html" class="bold d-inline-flex align-items-center color-1 ml-3">Plus de details
+						<i class="pe pe-7s-angle-right"></i>
+					</a> -->
+				</p>
+			</div>
+		</section>
+		<!-- ./Integration API -->
+		<section class="section mt-6n">
+			<div class="container pt-0">
+				<div class="shadow bg-1 p-4 rounded">
+					<div class="row gap-y text-center text-md-left">
+						<div class="col-md-4 py-4 px-5 d-flex flex-column b-md-r">
+							<a href="javascript:void(0)" class="color-5">
+								<h4 class="bold mr-3"> PLUGINS ECOMMERCE</h4>
+							</a>
+							<p class="mt-4">
+							<div>
+							<li>Woocommerce</li>
+							<li>Magento </li>
+							<li>Opencart</li>
+							<li>Prestashop</li>
+							</div>
+							</p>
+							<a href="contact.html" class="d-block d-md-flex align-items-center mt-auto">Plus de dtails
+								<i class="fas fa-long-arrow-alt-right ml-3"></i>
+							</a>
+						</div>
+						<div class="col-md-4 py-4 px-5 d-flex flex-column b-md-r">
+							<a href="javascript:void(0)" class="color-5">
+								<h4 class="bold mr-3">UTILITAIRES APPLICATION WEB</h4>
+							</a>
+							<p class="mt-4">
+							<div>
+							<li>Java - PHP</li>
+							<li>Python - PERL</li>
+							<li>NODE JS - joomla </li>
+							<li>WordPress - Magento </li>
+							</div>
+							</p>
+							<a href="contact.html" class="d-block d-md-flex align-items-center mt-auto">Plus de details
+								<i class="fas fa-long-arrow-alt-right ml-3"></i>
+							</a>
+						</div>
+						<div class="col-md-4 py-4 px-5 d-flex flex-column">
+							<a href="javascript:void(0)" class="color-5">
+								<h4 class="bold mr-3">UTILITAIRES APPLICATION MOBILE</h4>
+							</a>
+							<p class="mt-4">
+							<div>
+							<li>Java</li>
+							<li>PHP </li>
+							<li>Python</li>
+							<li>PERL - NODE JS </li>
+							</div>
+							</p>
+							<a href="contact.html" class="d-block d-md-flex align-items-center mt-auto">Plus de dtails
+								<i class="fas fa-long-arrow-alt-right ml-3"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ./Bring to life - Swiper -->
+		<!-- <section class="section bg-6">
+			<div class="container bring-to-front">
+				<div class="row gap-y align-items-center">
+					<div class="col-md-6">
+						<div class="rounded bg-3-gradient shadow">
+							<div class="d-flex flex-column align-items-center py-3">
+								<img src="img/bg/asset-1.jpg" class="img-responsive w-50" alt="">
+							</div>
+						</div> -->
+						<!-- <div class="rounded shadow-box bg-1 mt-3">
+							<div class="media align-items-center px-3">
+								<i class="pe pe-7s-graph pe-3x accent mr-3"></i>
+								<div class="media-body my-3 pl-3 b-l">
+									<p class="bold my-0">Tableau de bord d'administration inclu</p>
+									<p class="my-0 color-2">Nous avons inclus un tableau de bord d'administration entièrement fonctionnel pour tenir informer de tous les flux</p>
+								</div>
+							</div>
+						</div> -->
+						<!-- <div class="rounded shadow-box bg-1 mt-3">
+							<div class="media align-items-center px-3">
+								<i class="pe pe-7s-graph1 pe-3x accent mr-3"></i>
+								<div class="media-body my-3 pl-3 b-l">
+									<p class="bold my-0">Des chiffres</p>
+									<p class="my-0 color-2">Obtenez en temps reel l'evolution de la comercialisation de votre produit dont l'achat est géré par iMONEY</p>
+									<hr class="my-3">
+									<nav id="sw-nav-1" class="nav nav-tabs tabs-clean border-bottom-0">
+										<a href="javascript:void(0)" class="nav-item nav-link pl-md-0 py-0 d-flex flex-column align-items-center border-bottom-0 active" data-step="1">
+											<i class="icon pe pe-7s-mail-open pe-2x"></i>
+											<span class="d-none small">Messagerie</span>
+										</a>
+										<a href="javascript:void(0)" class="nav-item nav-link py-0 d-flex flex-column align-items-center border-bottom-0" data-step="2">
+											<i class="icon pe pe-7s-date pe-2x"></i>
+											<span class="d-none small">Calandrier</span>
+										</a>
+										<a href="javascript:void(0)" class="nav-item nav-link py-0 d-flex flex-column align-items-center border-bottom-0" data-step="3">
+											<i class="icon pe pe-7s-note2 pe-2x"></i>
+											<span class="d-none small">Facture</span>
+										</a>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div> -->
+					<!-- <div class="col-md-6 ml-md-auto text-center text-md-left">
+						<p class="badge badge-info text-uppercase">Simple et conviviale</p>
+						<h2>Donnez une autre dimension à votre application avec iMONEY</h2>
+						<p class="color-2">Interface conviviale avec des etats staistiques et des rapports qui vous mettent au parfum de toutes les transactions qui s'effecturent au tour de votre produit pour vous permettre d'etablir des etudes business Intelligences.  </p>
+						<hr>
+						<div class="swiper-container" data-sw-navigation="#sw-nav-1" data-sw-navigation-active="active">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<figure class="shadow-box">
+										<img src="img/screens/dash/inbox.png" alt="" class="img-responsive rounded">
+									</figure>
+									<p class="small text-center text-danger">Nettoyer l'interface utilisateur de la boîte de réception</p>
+								</div>
+								<div class="swiper-slide">
+									<figure class="shadow-box">
+										<img src="img/screens/dash/calendar.png" alt="" class="img-responsive rounded">
+									</figure>
+									<p class="small text-center text-danger">Conception d'interface utilisateur de calendrier exceptionnelle</p>
+								</div>
+								<div class="swiper-slide">
+									<figure class="shadow-box">
+										<img src="img/screens/dash/invoice.png" alt="" class="img-responsive rounded">
+									</figure>
+									<p class="small text-center text-danger">Ébauches d'achats avec la fonction de facture</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<!-- ./Developers - Code snippets -->
+		<section class="section b-b b-t bg-6">
+			<div class="container">
+				<div class="section-heading text-center">
+					<i class="pe pe-7s-box2 accent pe-3x"></i>
+					<h2>Donnez une autre dimension à votre application avec les Outils iMONEY pour developpeurs</h2>
+					<p class="lead color-2">Pour tous vos besoins concernant les integrations dans vos projets, iMONEY se charge de vous fournir tous les codes et interfaces possibles.</p>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-lg-3 ml-lg-auto order-md-2">
+						<nav id="sw-nav-developers" class="nav flex-md-column justify-content-between justify-content-md-start nav-pills nav-pills-light nav-fill">
+							<a class="nav-item nav-link bold text-md-left active" href="#" data-step="1">
+								<i class="icon fas fa-code"></i> HTML Structure</a>
+							<a class="nav-item nav-link bold text-md-left" href="#" data-step="2">
+								<i class="icon fab fa-sass"></i> SASS compiler</a>
+							<a class="nav-item nav-link bold text-md-left" href="#" data-step="3">
+								<i class="icon fas fa-retweet fa-rotate-90"></i> Ajax enabled</a>
+							<a class="nav-item nav-link bold text-md-left" href="#" data-step="4">
+								<i class="icon fas fa-exclamation-triangle"></i> Form validation</a>
+						</nav>
+						<hr class="mt-5">
+						<a href="contact.html" class="nav-link accent">Plus de details
+							<i class="icon fas fa-long-arrow-alt-right"></i>
+						</a>
+					</div>
+					<div class="col-md-8">
+						<div class="swiper-container mt-4 mt-md-0" data-sw-navigation="#sw-nav-developers">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide"><pre class="prettyprint lang-html linenums=10">
+&lt;header class="main-header"&gt;
+    ...
+&lt;/header&gt;
+
+&lt;div class="main-body"&gt;
+    &lt;nav class="side-nav"&gt;
+        ...
+    &lt;/div&gt;
+
+    &lt;main&gt;
+        ...
+    &lt;/main&gt;
+
+    &lt;aside class="quick-view"&gt;
+        ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;footer class="main-footer"&gt;
+    ...
+&lt;/footer&gt;
+                </pre></div>
+								<div class="swiper-slide"><pre class="prettyprint lang-js linenums">
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+var autoprefixer = require('gulp-autoprefixer');
+
+gulp.task('sass', function () {
+    return gulp
+        .src('../sass/*.scss')
+        .pipe(sass({
+            includePaths: ['./bower_components']
+        }))
+        .pipe(autoprefixer({
+            browsers: ['last 2 version', '> 5%']
+        }))
+        .pipe(gulp.dest('./css'));
+});
+
+gulp.task('default', ['scss']);
+            </pre></div>
+								<div class="swiper-slide"><pre class="prettyprint lang-js linenums">
+var apiUrl = 'https://api.5studios.net/';
+
+this.getLoggedUser = function() {
+    return $.ajax({
+        url: apiUrl + 'user/login?inc=name,location,email,picture',
+        dataType: 'json'
+    });
+};
+
+this.getPendingTasks = function () {
+    return $.getJSON(apiUrl + 'data/tasks/pending', function() {
+        console.log("Tasks loaded");
+    });
+};
+                            </pre></div>
+								<div class="swiper-slide"><pre class="prettyprint lang-js linenums">
+$("#register-form").validate({
+  rules: {
+    username: {
+      required: true,
+      minLength: 2,
+      remote: "register.php"
+    }
+  },
+  messages: {
+    username: {
+      required: "Enter your username",
+      minLength: "At least 2 characters are necessary",
+      remote: String.format("The name {0} is already in use")
+    }
+  }
+});
+                            </pre></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		 <!-- ./Integration tools -->
+		<section class="section">
+			<div class="shape-wrapper"></div>
+			<div class="container bring-to-front">
+				<div class="row gap-y align-items-center">
+					<div class="col-12 col-md-5 col-lg-5 mr-md-auto text-center text-lg-left">
+						<i class="pe pe-7s-plugin accent pe-3x"></i>
+						<p class="small accent bold">Integrable dans toutes vos solutions</p>
+						<h2 class="bold">Intégrations faciles à vos applications web et mobiles</h2>
+						<p class="color-2">iMONEY s'adapte et s'integre dans toutes les technologies de requetage, d'identification, de systemes, ect</p>
+					</div>
+					<div class="col-12 col-md-7 col-lg-6">
+						<div class="row gap-y">
+							<div class="col-6 col-sm-5 col-md-6 col-lg-5 mt-6 ml-lg-auto">
+								<div class="bg-3-gradient rounded color-1 p-2 p-sm-4 shadow text-center" data-aos="fade-up">
+									<img src="img/logos/jq.png" class="img-responsive op-5 px-0 px-sm-4" alt="">
+									<p class="bold mt-5">jQuery</p>
+									<p class="op-5 small">Bibliothèque JavaScript libre et multiplateforme créée pour faciliter l'écriture de scripts côté client dans le code HTML des pages web avec iMONEY.</p>
+									<a href="javascript:void(0)" class="btn btn-rounded btn-1 mt-4">
+										<i class="d-inline-block d-sm-none fas fa-long-arrow-alt-right"></i>
+										<span class="d-none d-sm-inline-block">Integrer</span>
+									</a>
+								</div>
+							</div>
+							<div class="col-6 col-sm-5 col-md-6 col-lg-5 mr-lg-auto">
+								<div class="bg-4-gradient rounded color-1 p-2 p-sm-4 shadow text-center" data-aos="fade-up">
+									<img src="img/logos/cb.jpg" class="img-responsive op-5 px-0 px-sm-4" alt="...">
+									<p class="bold mt-5">Codebase</p>
+									<p class="op-5 small">integré avec iMONEY pour désigner l'ensemble du code source utilisé pour construire un logiciel ou un composant..</p>
+									<a href="javascript:void(0)" class="btn btn-rounded btn-1 mt-4">
+										<i class="d-inline-block d-sm-none fas fa-long-arrow-alt-right"></i>
+										<span class="d-none d-sm-inline-block">Integrer</span>
+									</a>
+								</div>
+							</div>
+							<div class="col-6 col-sm-5 col-md-6 col-lg-5 ml-lg-auto">
+								<div class="bg-danger rounded color-1 p-2 p-sm-4 shadow text-center" data-aos="fade-up">
+									<img src="img/logos/op.jpg" class="img-responsive op-5 px-0 px-sm-4" alt="...">
+									<p class="bold mt-5">OpenCart</p>
+									<p class="op-5 small">iMONEY s'integre dans les systemes de cates à puce.</p>
+									<a href="javascript:void(0)" class="btn btn-rounded btn-1 mt-4">
+										<i class="d-inline-block d-sm-none fas fa-long-arrow-alt-right"></i>
+										<span class="d-none d-sm-inline-block">Integrer</span>
+									</a>
+								</div>
+							</div>
+							<div class="col-6 col-sm-5 col-md-6 col-lg-5 mt-6n mr-lg-auto">
+								<div class="bg-info rounded color-1 p-2 p-sm-4 shadow text-center" data-aos="fade-up">
+									<img src="img/logos/al.jpg" class="img-responsive op-5 px-0 px-sm-4" alt="...">
+									<p class="bold mt-5">Autres</p>
+									<p class="op-5 small">A l'image des technologies ci-presentes, iMONEY s'integre dans bien d'autres...</p>
+									<a href="javascript:void(0)" class="btn btn-rounded btn-1 mt-4">
+										<i class="d-inline-block d-sm-none fas fa-long-arrow-alt-right"></i>
+										<span class="d-none d-sm-inline-block">Integrer</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+		
+		<!-- ./Brands -->
+		<section class="section bg-6">
+		
+			<div class="container">
+				<h4 class="bold text-center mb-5 color-2">Des technologies de pointe...</h4>
+				<div class="row gap-y">
+					<div class="col-md-3 col-xs-4 col-6 px-md-5">
+						<img src="img/logos/jv.jpg" alt="" class="img-responsive mx-auto op-7" style="max-height: 60px">
+					</div>
+					<div class="col-md-3 col-xs-4 col-6 px-md-5">
+						<img src="img/logos/ja.jpg" alt="" class="img-responsive mx-auto op-7" style="max-height: 60px">
+					</div>
+					<div class="col-md-3 col-xs-4 col-6 px-md-5">
+						<img src="img/logos/ph.jpg" alt="" class="img-responsive mx-auto op-7" style="max-height: 60px">
+					</div>
+					<div class="col-md-3 col-xs-4 col-6 px-md-5">
+						<img src="img/logos/py.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 60px">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ./Join - As Developer/Designer -->
+		<section class="section bg-6">
+			<div class="container bring-to-front py-0">
+				<div class="shadow bg-1 p-5 rounded">
+					<div class="row gap-y align-items-center text-center text-lg-left">
+						<div class="col-12 col-md-6 py-4 px-5 b-md-r">
+							<i class="pe pe-7s-diamond pe-3x color-3"></i>
+							<a href="register.html" class="mt-4 color-3 d-flex align-items-center">
+								<h4 class="mr-3">Rejoints nous en tant que Marchand/eMarchand</h4>
+								<i class="fas fa-long-arrow-alt-right"></i>
+							</a>
+							<p class="mt-4">Utilisez votre compte bancaire, vos cartes, MOBILE MONEY pour tous vos paiements de biens et services via une plateforme qui est acceptée par +5000 marchands. 
+Gagnez du temps en effectuant vos paiements à distance via une plateforme unique et sécurisée fédérant tous les moyens de paiements existants en Côte d’Ivoire.</p>
+						</div>
+						<div class="col-12 col-md-6 py-4 px-5">
+							<i class="pe pe-7s-science pe-3x color-4"></i>
+							<a href="register.html" class="mt-4 color-4 d-flex align-items-center">
+								<h4 class="mr-3">Rejoints nous en tant que developpeur</h4>
+								<i class="fas fa-long-arrow-alt-right"></i>
+							</a>
+							<p class="mt-4">Utilisez les APIs de iMONEY pour l'integrer dans votre solution. Il presente une téchnologie de dernière géneration et facilite la commercialisation ou l'exploitation de votre solution. Adapté à tous les moyens de paiement, iMONEY, s'offre à vous comme un "TOUT EN UN" et est accessible à tout moment. c'est le moment d'exeller dans vos affaires!!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ./CTA - Create Account -->
+		<section class="section bg-1 edge top-left b-b">
+			<div class="container pt-5">
+				<div class="d-flex align-items-center flex-column flex-md-row">
+					<div class="text-center text-md-left">
+						<p class="light mb-0 accent lead">Prêt à commencer?</p>
+						<h2 class="mt-0">Créer un compte iMONEY</h2>
+					</div>
+					<a href="register.html" class="btn btn-accent btn-rounded mt-3 mt-md-0 ml-md-auto">Créer un compte iMONEY</a>
+				</div>
+			</div>
+		</section>
+		
+	</main>
+			<!-- ./Counters -->
+		<section class=" edge bottom-right">
+			<div class="container">
+				<div class="row align-items-center text-center text-lg-left">
+					<div class="col-12 col-md-7 col-lg-6 mr-lg-auto text-center text-md-left">
+						<p class="small accent bold">Statistiques étonnantes</p>
+						<h2 class="bold">iMONEY c'est</h2>
+						<p class="color-2">la solution qui met à votre disposition des technologies d'extensions, des plugins de dernière génération, et tout type de solutions pour les héros du dévéloppement. Commencez à intégrer gratuitement imoney à vos applications et faites partie de la famille d'utilisateurs iMONEY qui dispose de projets et de perspectives à echelle galopante.</p>
+					</div>
+					<div class="col-12 col-md-5 col-lg-5">
+						<div class="row no-gutters">
+							<div class="col-6 mb-3 pr-3">
+								<div class="rounded shadow-box shadow-hover p-2 p-sm-3 d-flex align-items-center flex-wrap bg-1">
+									<i class="pe pe-3x mr-4 pe-7s-user color-2"></i>
+									<div class="text-left">
+										<p class="counter font-md bold m-0 color-4">1021</p>
+										<p class="m-0">Utilisateurs</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-6 mb-3">
+								<div class="rounded shadow-box shadow-hover p-2 p-sm-3 d-flex align-items-center flex-wrap bg-1">
+									<i class="pe pe-3x mr-4 pe-7s-cloud-download color-2"></i>
+									<div class="text-left">
+										<p class="counter font-md bold m-0 color-4">825</p>
+										<p class="m-0">Telechargements</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-6 pr-3">
+								<div class="rounded shadow-box shadow-hover p-2 p-sm-3 d-flex align-items-center flex-wrap bg-1">
+									<i class="pe pe-3x mr-4 pe-7s-plugin color-2"></i>
+									<div class="text-left">
+										<p class="counter font-md bold m-0 color-4">19</p>
+										<p class="m-0">Plugins</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="rounded shadow-box shadow-hover p-2 p-sm-3 d-flex align-items-center flex-wrap bg-3 color-1">
+									<i class="pe pe-3x mr-4 pe-7s-diamond op-7"></i>
+									<div class="text-left">
+										<p class="counter font-md bold m-0">28</p>
+										<p class="m-0">Projets</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+	<!-- ./Footer - Stay in Touch -->
+	
+	<footer class="site-footer section text-center block bg-1">
+	
+		<div class="container py-4">
+			<div class="font-md regular">Recevez nos Newsletters</div>
+			<p class="color-2 mb-5">Veuillez renseigner votre numero afin de rester informé de nos produits et promotions</p>
+			<div class="row">
+				<div class="col-12 col-md-6 mx-auto overflow-hidden">
+					<form action="srv/register.php" class="form" data-response-message-animation="slide-in-left">
+						<div class="input-group">
+							<input type="email" name="Subscribe[email]" class="form-control rounded-circle-left" placeholder="Entrez votre email" required>
+							<div class="input-group-append">
+								<button class="btn btn-rounded btn-accent" type="submit">Envoyer</button>
+							</div>
+						</div>
+					</form>
+					<div class="response-message">
+						<i class="fas fa-envelope font-lg"></i>
+						<p class="font-md m-0">Consulter vos messages</p>
+						<p class="response">Nous vous avons envoyé un email de confirmation de votre mail.</p>
+					</div>
+				</div>
+			</div>
+			<hr class="mt-5">
+			<nav class="nav social-icons justify-content-center mt-4">
+				<a href="#" class="mr-3 font-regular color-2">
+					<i class="fab fa-facebook-f"></i>
+				</a>
+				<a href="#" class="mr-3 font-regular color-2">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a href="#" class="mr-3 font-regular color-2">
+					<i class="fab fa-instagram"></i>
+				</a>
+				<a href="#" class="mr-3 font-regular color-2">
+					<i class="fas fa-rss"></i>
+				</a>
+				<a href="#" class="font-regular color-2">
+					<i class="fab fa-linkedin-in"></i>
+				</a>
+			</nav>
+			<p class="small copyright color-2">©2018 iMONEY,
+				<em>par</em>
+				<a class="brand bold" href="#">SISPAIE</a>
+			</p>
+		</div>
+		
+	</footer>
+	<!-- ./Footer - Four Columns -->
+<footer class="site-footer section">
+		<div class="container pb-3">
+			<div class="row gap-y text-center text-md-left">
+				<div class="col-md-4 mr-auto">
+					<img src="img/logo.png" alt="" class="logo">
+					<p>iMONEY - La plus grande plateforme de paiement électronique en Côte d'Ivoire est une destination ultime pour le rechargement en ligne des cartes de débit/crédit, le paiement de factures CIE/SODECI, MTN, ORANGE, MOOV, CANAL+, frais de scolarité, les paiements marchands, paiement  de tickets de cinéma/concerts et pleins autres partout en Côte d'Ivoire.</p>
+				</div>
+				<div class="col-md-2">
+					<h6 class="py-2 bold">Société</h6>
+					<nav class="nav flex-column">
+						<a class="nav-item py-2" href="about.html">Présentation</a>
+						<a class="nav-item py-2" href="#">Services</a>
+						<a class="nav-item py-2" href="blog/blog-grid.html">Frais et commissions</a>
+						<a class="nav-item py-2" href="#">Carrières</a>
+					</nav>
+				</div>
+				<div class="col-md-2">
+					<h6 class="py-2 bold">Support</h6>
+					<nav class="nav flex-column">
+						<a class="nav-item py-2" href="#">Comment ça marche</a>
+						<a class="nav-item py-2" href="#">Développeurs</a>
+						<a class="nav-item py-2" href="#">Sécurité</a>
+						<a class="nav-item py-2" href="#">FAQ</a>
+					</nav>
+				</div>
+				<div class="col-md-2">
+					<h6 class="py-2 bold">Information</h6>
+					<nav class="nav flex-column">
+						<a class="nav-item py-2" href="#">CGV</a>
+						<a class="nav-item py-2" href="#">Confidentialité</a>
+						<a class="nav-item py-2" href="#">Mention légale</a>
+					</nav>
+				</div>
+			</div>
+			<hr class="mt-5">
+			<div class="row small align-items-center">
+				<div class="col-md-4">
+					<p class="mt-2 mb-md-0 color-2 text-center text-md-left">© 2018 SISPAIE. Tous droits réservés</p>
+				</div>
+				<div class="col-md-8">
+					<nav class="nav justify-content-center justify-content-md-end">
+						<a href="#" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
+							<i class="fab fa-facebook"></i>
+						</a>
+						<a href="#" class="btn btn-circle btn-sm btn-2 mr-3 op-4">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="#" class="btn btn-circle btn-sm btn-2 op-4">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- themeforest:js -->
+	<script src="js/01.cookie-consent-util.js"></script>
+	<script src="js/02.1.cookie-consent-themes.js"></script>
+	<script src="js/02.2.cookie-consent-custom-css.js"></script>
+	<script src="js/02.3.cookie-consent-informational.js"></script>
+	<script src="js/02.4.cookie-consent-opt-out.js"></script>
+	<script src="js/02.5.cookie-consent-opt-in.js"></script>
+	<script src="js/02.6.cookie-consent-location.js"></script>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.animatebar.js"></script>
+	<script src="js/odometer.min.js"></script>
+	<script src="js/simplebar.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/jquery.smartWizard.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.waypoints.js"></script>
+	<script src="js/jquery.counterup.js"></script>
+	<script src="js/modernizr-2.8.3.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/particles.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="js/prettify.js"></script>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="js/cookieconsent.min.js"></script>
+	<script src="js/common-script.js"></script>
+	<script src="js/forms.js"></script>
+	<script src="js/site.js"></script>
+	<!-- endinject -->
+</body>
+
+</html>
